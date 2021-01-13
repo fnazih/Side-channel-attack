@@ -1,6 +1,6 @@
 start = 1;
 finish = 300;
-BaseName = 'Traces_EM\20201208-0001 (';
+BaseName = '20201208-0001 (';
 matrice = [300, 5000];
 
 for i = start:finish
