@@ -44,11 +44,11 @@ for k = 1:16
     [row, column] = find(corr_matrix == max(max(corr_matrix)));     %finding max in every matrix
     
     keyByte = dec2hex(row - 1, 2);
-    key = key + append(keyByte);
+    key = key + append(keyByte) + " ";
 end
 
 
 %disp(corr_matrix);
 %disp(matrix_consump_hyp);
-
+disp("Result with " + finish + " traces : ");
 disp("Key value : " + key);
